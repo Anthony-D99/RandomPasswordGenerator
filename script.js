@@ -21,7 +21,7 @@ function getRandomValueArray(array) {
 
 
 function generatePassword() {
-  
+
   var generatedPassword= "";
 
   var numberOfCharacters = prompt("How many character would you like your password to contain?");
@@ -34,25 +34,25 @@ function generatePassword() {
   var includeUpperCaseLetters = confirm("Would you like to include upper case letters in your password?");
 
   if(includeUpperCaseLetters){
-    password = password.concact(upperCaseOptions);
+    password = password.concat(upperCaseOptions);
   }
 
   var includeLowerCaseLetters = confirm("Would you like to include lower case letters in your password?");
 
   if(includeLowerCaseLetters){
-    password = password.concact(lowerCaseOptions);
+    password = password.concat(lowerCaseOptions);
   }
 
   var includeSpecialCharacters = confirm("Would you like to include special characters in your password?");
 
   if(includeSpecialCharacters){
-    password = password.concact(specialCharacterOptions);
+    password = password.concat(specialCharacterOptions);
   }
 
   var includeNumbers = confirm("Would you like to include numbers in your password?");
 
   if(includeNumbers){
-    password = password.concact(numberOptions);
+    password = password.concat(numberOptions);
   }
  
  for(i = 0; i < numberOfCharacters; i++){

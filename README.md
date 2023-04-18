@@ -18,4 +18,4 @@ The following image shows the web application's appearance and functionality:
 
 Repo link: https://github.com/Anthony-D99/RandomPasswordGenerator
 
-Deployed page link: 
+Deployed page link: https://anthony-d99.github.io/RandomPasswordGenerator/
